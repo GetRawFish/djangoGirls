@@ -1,0 +1,46 @@
+/* font-family: 'Playfair Display', serif; */
+
+a {
+    text-decoration: initial;
+    color: #000;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.header {
+    max-width: 800px;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+}
+.header h1 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 125px;
+    left: -55px;
+}
+.header-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 1.5rem;
+}
+.article-list {
+    margin-top: 6rem;
+    margin-left: 9rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
+.header-bg {
+    height: 75px;
+    width: 100vw;
+    background-image: url('../img/getraw-header.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
